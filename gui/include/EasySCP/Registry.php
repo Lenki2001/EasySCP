@@ -167,6 +167,6 @@ class EasySCP_Registry {
 	 */
 	public static function isRegistered($index) {
 
-		return array_key_exists($index, self::getInstance());
+	return isset(self::getInstance() ->  $index);
 	}
 }
